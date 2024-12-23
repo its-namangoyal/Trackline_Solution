@@ -1,0 +1,87 @@
+  
+  .page-title {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .card {
+    border-radius: 12px;
+    border: none;
+    overflow: hidden; /* Ensure no content is cut off */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  }
+  /* Hover effect to lift the card and change shadow */
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  
+  .card-header {
+    border-radius: 10px; /* Rounded corners for the top of the card */
+    width: 100%; /* Full width of the card */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: var(--card-header-bg, #007bff); /* Use CSS variables for flexibility */
+    color: #ffffff;
+  }
+  
+  .card-body {
+    padding: 1rem; /* Adjust padding as needed */
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem; /* Added margin for spacing */
+  }
+  
+  .card-value {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem; /* Added margin for spacing */
+  }
+  
+  .card-change {
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.5rem; /* Added padding for better readability */
+  }
+  
+  .chart-container {
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  }
+
+  .header-rounded {
+    border-radius: 10px !important;
+  }
+  
+
+  /* .card-bg-trips {
+    background-color: #A3A847 !important;
+  } */
+
+  .dashboardChartsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+
+  /* .lineChartContainerWrap, .recentTripMap {
+    width: 50%;
+  } */

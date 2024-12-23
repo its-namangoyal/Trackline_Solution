@@ -1,0 +1,14 @@
+
+
+/* .formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} */
+
+.authError {
+    width: 100%;
+    text-align: center;
+    color: #d32f2f;
+}

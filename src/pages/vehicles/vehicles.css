@@ -1,0 +1,42 @@
+/* vehicle.css */
+
+.vehicle-table {
+    width: 100%;
+    /* max-width: 500px;   */
+    /* margin: 0 auto; */
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 0px 15px 0px #6C6C6C40; */
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .vehicle-table th,
+  .vehicle-table td {
+    padding: 15px 20px;
+    text-align: left;
+  }
+  
+  .vehicle-table th {
+    background-color: #004040;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+  
+  .vehicle-table td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .vehicle-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .vehicle-table tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  .vehicle-table tr:hover {
+    background-color: #f0f0f0;
+  }

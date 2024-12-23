@@ -1,0 +1,20 @@
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #DDDDDD;
+    min-height: 100vh;
+}
+
+.sidebarContainerHome {
+    min-height: calc(100vh - 30px);
+    width: 20%;
+}
+
+.pagesContainerHome {
+    width: calc(80% - 30px);
+    padding: 15px 0;
+}
